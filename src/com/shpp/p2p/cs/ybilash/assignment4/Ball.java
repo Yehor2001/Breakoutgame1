@@ -8,6 +8,7 @@ import java.awt.*;
 public class Ball extends GOval implements BreakoutInterface {
     private double velocityX = 0;
     private double velocityY = 0;
+    //This constant is mean screen width
 
     private final double screenWidth;
     RandomGenerator rgen = RandomGenerator.getInstance();
